@@ -17,22 +17,21 @@ The following features needed to be functional:
 - All prompts for user input are functional
 - While loop is functional, giving the user the option to add more employees, or stop. Clicking cancel ends the loop and generates the array.
 - The array is viewable in the console.
--
 
 ## Challenges
 
 - Even though my prompts and while loop are functional, the table does not display any employee information.
 
-![alt text](assets/images/empty-table-issue.png)
+![alt text](Assets/images/empty-table-issue.png)
 
 - I'm not sure why the following block of code did not work. I was unable to find a solution to the error stated in the console.
 
-![alt text](assets/images/average-salary-code.png)
-![alt text](assets/images/average-salary-console-error.png)
+![alt text](Assets/images/average-salary-code.png)
+![alt text](Assets/images/average-salary-console-error.png)
 
 - I was unable to formulate any code for the randomly generated employee.
 
 - This code was not touched by me, but errors in the console are present. I'm not sure if this error explains why the employee information did not store into the table.
 
-![alt text](assets/images/original-sort-code.png)
-![alt text](assets/images/console-sort-error.png)
+![alt text](Assets/images/original-sort-code.png)
+![alt text](Assets/images/console-sort-error.png)
