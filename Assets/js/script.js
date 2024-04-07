@@ -11,7 +11,7 @@ const collectEmployees = function () {
     let firstName = prompt("Enter first name:");
     let lastName = prompt("Enter last name:");
     let salary = parseInt(prompt("Enter salary:"));
-   
+
     if (isNaN(salary)) {
       salary = 0;
     };
@@ -27,7 +27,6 @@ const collectEmployees = function () {
   console.log(employees);
   return employees;
 };
-collectEmployees();
 
 // Display the average salary
 const displayAverageSalary = function (employeesArray) {
@@ -46,11 +45,14 @@ const displayAverageSalary = function (employeesArray) {
     )} for ${numberOfEmployees} employees`
   );
 };
-displayAverageSalary(employees);
 
 // Select a random employee
-const getRandomEmployee = function (employeesArray) {
+const getRandomEmployee = function (employees) {
   // TODO: Select and display a random employee
+  const randomEmployee = employees[Math.floor(Math.random() * employees.length)];
+
+  console.log(`Congratulations, ${randomEmployee.firstName} ${randomEmployee.lastName}, you won the raffle!`);
+  return employees[randomEmployee];
 };
 
 /*
