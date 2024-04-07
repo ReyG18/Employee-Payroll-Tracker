@@ -1,37 +1,25 @@
-# Employee-Payroll-Tracker
+# Employee-Payroll-Tracker-Refactor
 
-Adding JavaScript to an employee payroll tracking website in order to make it functional.
+Implimented JavaScript to an employee payroll tracking website in order to make it functional.
 
 ## Description
 
-The Employee Payroll Tracker's JavaScript needed to be compeleted for functionality.
-The following features needed to be functional:
+This website is an Employee Payroll Tracker, where users are able to add employees' first name, last name, and salary. This website will then calculate the average salary as well as pull a random raffle winner from the employees that were added. Both are viewable in the console.
 
-- Store employee first and last name, and salary onto a table per user input.
-- Those employees should display in abc order
-- A calculated average salary should be viewable in the console.
-- A randomly generated employee should be viewable in the console followed by some message.
+## Features
 
-## Completed Features
+The following features are now functional:
 
-- All prompts for user input are functional
-- While loop is functional, giving the user the option to add more employees, or stop. Clicking cancel ends the loop and generates the array.
-- The array is viewable in the console.
+- Clicking "Add Employee" will trigger a series of prompts for the user to input employee information to be viewed in the table.
+- After adding initial employees, licking "Add Employee" once more grants the user the ability to add more employees to the table.
+- The table will display the list of employees with their first names, last names, and salaries, and order them alphabetically by    last name.
+- The average salary is viewable in the console.
+- The raffle winner is determined randomly and can be revealed in the console.
 
-## Challenges
+## Bug Fixes
 
-- Even though my prompts and while loop are functional, the table does not display any employee information.
+- Employees now display on the page as intended and are ordered alphabetically.
+    ![alt text](Assets/images/table-issue-fixed.png)
 
-![alt text](Assets/images/empty-table-issue.png)
-
-- I'm not sure why the following block of code did not work. I was unable to find a solution to the error stated in the console.
-
-![alt text](Assets/images/average-salary-code.png)
-![alt text](Assets/images/average-salary-console-error.png)
-
-- I was unable to formulate any code for the randomly generated employee.
-
-- This code was not touched by me, but errors in the console are present. I'm not sure if this error explains why the employee information did not store into the table.
-
-![alt text](Assets/images/original-sort-code.png)
-![alt text](Assets/images/console-sort-error.png)
+- Average salary and raffle winner now display in the console as intended.
+    ![alt text](Assets/images/avg-salary-fixed.png)
