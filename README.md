@@ -4,7 +4,7 @@ Implimented JavaScript to an employee payroll tracking website in order to make 
 
 ## Description
 
-This website is an Employee Payroll Tracker, where users are able to add employees' first name, last name, and salary. This website will then calculate the average salary as well as pull a random raffle winner from the employees that were added. Both are viewable in the console.
+This website is an Employee Payroll Tracker where users are able to add employees' first names, last names, and salaries. The website will then calculate the average salary as well as pull a random raffle winner from the employees that were added. Both are viewable in the console.
 
 ## Features
 
@@ -18,8 +18,10 @@ The following features are now functional:
 
 ## Bug Fixes
 
-- Employees now display on the page as intended and are ordered alphabetically.
+- Employees now display on the page and are ordered alphabetically.
     ![alt text](Assets/images/table-issue-fixed.png)
 
-- Average salary and raffle winner now display in the console as intended.
+- Average salary and raffle winner now display in the console.
     ![alt text](Assets/images/avg-salary-fixed.png)
+
+- The website is now fully functional and works as intended.
