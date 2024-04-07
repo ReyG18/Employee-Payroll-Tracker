@@ -19,9 +19,11 @@ The following features are now functional:
 ## Bug Fixes
 
 - Employees now display on the page and are ordered alphabetically.
+
     ![alt text](Assets/images/table-issue-fixed.png)
 
 - Average salary and raffle winner now display in the console.
+
     ![alt text](Assets/images/avg-salary-fixed.png)
 
 - The website is now fully functional and works as intended.
